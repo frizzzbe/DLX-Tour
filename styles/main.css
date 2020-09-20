@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "TT Norms Pro";
+	font-weight: 400;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.btn{
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00CBDA;
+	border-radius: 100px;
+	text-decoration: none;
+	padding: 10px 0;
+}
+
+.btn-white{
+	box-sizing: border-box;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.main-header{
+	background-color: #F8F8F8;
+}
+.main-nav{
+	padding: 14px 0;
+	max-height: 71px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-header__properties{
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 57px;
+	margin-right: 43px;
+	align-items: center;
+}
+
+.main-header__prefix{
+	font-size: 14px;
+	line-height: 17px;
+	color: #B6B6B6;
+}
+.main-header__current-city{
+	font-family: TT Norms Pro;
+	display: inline-block;
+	margin-left: 13px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	cursor: pointer;
+	color: #000000;
+}
+
+.main-header__language img{
+    transform: translateY(15%);
+	margin-right: 16px;
+}
+.main-header__current-language{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	margin-right: 16px;
+	color: #000000;
+}
+.main-header__change-language{
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+    cursor: pointer;
+	color: #A6A6A6;
+}
+.main-header .btn{
+	margin: 0 14px;
+	flex-basis: 191px;
+}
+/*h1{
+	font-family: "TT Norms Pro";
+	font-weight: 700;
+}
+h1 + p{
+	font-family: "TT Norms Pro";
+	font-weight: 400;
+}
+
+h2{
+	font-family: "Cera Round Pro DEMO";
+	font-weight: 700;
+}
+h2 + p{
+	font-family: "Cera Round Pro DEMO";
+	font-weight: 500;
+}*/
