@@ -1,0 +1,39 @@
+/*footer*/
+.main-footer{
+	margin-top: 108px;
+	padding: 58px 0 43px;
+}
+.main-footer .container{
+	display: flex;
+	justify-content: space-between;
+}
+.main-footer__copyright{
+	margin-top: 20px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #A8A8A8;
+}
+.main-footer__menu{
+	display: flex;
+}
+.main-footer__list{
+	list-style: none;
+	padding: 0;
+}
+.main-footer__list:last-child{
+	margin-left: 111px;
+}
+.main-footer__link a{
+	font-family: TT Norms Pro;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	color: #000000;
+}
+.main-footer__link a:hover{
+	text-decoration: underline;
+}
+/*footer END*/

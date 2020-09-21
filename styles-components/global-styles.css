@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "TT Norms Pro";
+	font-weight: 400;
+}
+.container{
+	position: relative;
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.section-pre-title{
+	font-family: TT Norms Pro;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #00CBDA;
+}
+.section-title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 15px;
+	color: #000000;
+}
+.btn{
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00CBDA;
+	cursor: pointer;
+	border: none;
+	border-radius: 100px;
+	text-decoration: none;
+	padding: 10px 0;
+}
+.btn-white{
+	box-sizing: border-box;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/* rate */
+.rate{
+	display: flex;
+	justify-content: flex-start;
+}
+.rate__star{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	background: url("../images/star-gray.svg");
+}
+.rate__star--light{
+	background: url("../images/star.svg");
+}
+/* rate END*/

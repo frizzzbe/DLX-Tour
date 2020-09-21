@@ -1,0 +1,119 @@
+/*burning-tours element*/
+.burning-tours{
+	padding-top: 1px;
+}
+.section-pre-title{
+	margin-top: 45px;
+}
+
+.burning-tours__items{
+	margin-top: 79px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 276px 276px; 
+	grid-gap: 34px 30px;
+}
+.burning-tours__item{
+	background-size: cover;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 40.27%, rgba(0, 0, 0, 0) 100%);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 36px;
+}
+.burning-tours__item:nth-child(1){
+	background: url("../images/burning-tours-1.png") no-repeat center;
+	background-size: cover;
+}
+.burning-tours__item:nth-child(2){
+	background: url("../images/burning-tours-2.png") no-repeat center;
+	background-size: cover;
+}
+.burning-tours__item:nth-child(3){
+	background: url("../images/burning-tours-3.png") no-repeat center;
+	background-size: cover;
+}
+.burning-tours__item:nth-child(4){
+	background: url("../images/burning-tours-4.png") no-repeat center;
+	background-size: cover;
+}
+.burning-tours__item:nth-child(5){
+	background: url("../images/burning-tours-5.png") no-repeat center;
+	background-size: cover;
+}
+.burning-tours__item:first-child{
+	grid-row: 1/3;
+}
+.burning-tours__price{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.burning-tours__tag{
+	display: inline-block;
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 8px 23px;
+	background-color: #00CBDA;
+	box-shadow: 0px 0px 10px rgba(29, 185, 185, 0.2);
+	border-radius: 7px;
+}
+.burning-tours__cost{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: right;
+	color: #FFFFFF;
+}
+.burning-tours__cost-unit{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+
+.burning-tours__title{
+	margin-top: 19px;
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+.burning-tours__table{
+	margin: 0;
+	margin-top: 30px;
+}
+.burning-tours__props-title{
+	font-family: TT Norms Pro;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.burning-tours__props-value{
+    display: inline-block;
+	margin-left: 13px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+
+.burning-tours__btn{
+	position: relative;
+	display: block;
+	width: fit-content;
+	padding: 17px 83px;
+	margin: 45px auto 0;
+}
+/*burning-tours element END*/

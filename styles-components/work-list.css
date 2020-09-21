@@ -1,0 +1,30 @@
+/*work__list*/
+.work .section-pre-title{
+	margin-top: 99px;
+}
+.work__list{
+	margin-top: 99px;
+	display: flex;
+	justify-content: space-between;
+}
+.work__itm{
+	max-width: 255px;
+}
+
+.work__title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	margin-top: 46px;
+	color: #00CBDA;
+}
+.work__description{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 38px;
+	color: #000000;
+}
+/*work__list END*/

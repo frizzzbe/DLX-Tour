@@ -1,0 +1,76 @@
+/*reviews*/
+.reviews{
+	margin-top: 71px;
+}
+.reviews__container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 72px;
+}
+.reviews__button{
+	width: 46px;
+	height: 46px;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 50%;
+	border: none;
+	background: #ffffff;
+	background: url("../images/arrow-review.svg") center;
+	background-repeat: no-repeat;
+	padding: 11px;
+}
+.reviews__button-prev{
+	left: 0;
+}
+.reviews__button-next{
+	right: 0;
+	transform: rotate(180deg);
+}
+
+.reviews__item{
+	padding: 30px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(119, 119, 119, 0.07);
+	border-radius: 20px;
+	margin: 0 15px;
+}
+.reviews__item:first-child{
+	margin-left: 0;
+}
+.reviews__item:last-child{
+	margin-right: 0;
+}
+.reviews__item .rate{
+	margin-top: 103px;
+}
+.reviews__descr{
+	margin-top: 21px;
+}
+.reviews__item img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+}
+.reviews__user{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.reviews__user-info{
+	margin-left: 20px;
+}
+.reviews__user-name{
+	font-family: TT Norms Pro;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+.reviews__user-city{
+	font-family: TT Norms Pro;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+/*reviews END*/
