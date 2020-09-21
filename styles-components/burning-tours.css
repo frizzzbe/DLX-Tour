@@ -116,4 +116,27 @@
 	padding: 17px 83px;
 	margin: 45px auto 0;
 }
+
+.burning-tours__user{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: auto;
+}
+
+.burning-tours__user img{
+	border-radius: 50%;
+	margin-right: 10px;
+	width: 61px;
+	height: 61px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+}
+.burning-tours__user-fc{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
 /*burning-tours element END*/

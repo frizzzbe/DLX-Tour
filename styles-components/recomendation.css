@@ -57,4 +57,26 @@
 	text-decoration: none;
 	color: #00CBDA;
 }
+
+.recomendation__button{
+	top: 50%;
+	transform: translateY(-50%);
+	width: 46px;
+	height: 46px;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 50%;
+	border: none;
+	background: #ffffff;
+	background: url("../images/arrow-review.svg") center;
+	background-repeat: no-repeat;
+	padding: 11px;
+}
+.recomendation__button-prev{
+	left: -76px;
+}
+.recomendation__button-next{
+	right: -76px;
+	transform: rotate(180deg);
+}
 /*recomendation END*/
