@@ -468,6 +468,7 @@ body{
 	margin-top: 99px;
 }
 .recomendation__list{
+	margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
 }
