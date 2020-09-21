@@ -8,15 +8,13 @@
 @import '../styles-components/reviews.css';
 @import '../styles-components/footer.css';
 
-.work__itm img{
-	height: 65px;
-	background-size: 
-}
+
 .work-benefit .work__title{
 	font-family: Cera Round Pro DEMO;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 21px;
+	width: auto;
 	color: #000000;
 }
 .work-benefit .work__description{

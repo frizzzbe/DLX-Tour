@@ -6,9 +6,11 @@
 	margin-top: 99px;
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 }
 .work__itm{
 	max-width: 255px;
+	min-height: 330px;
 }
 
 .work__title{
@@ -17,6 +19,7 @@
 	font-size: 20px;
 	line-height: 26px;
 	margin-top: 46px;
+	width: 190px;
 	color: #00CBDA;
 }
 .work__description{
