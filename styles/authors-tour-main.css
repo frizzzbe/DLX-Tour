@@ -60,6 +60,7 @@
 	position: absolute;
 	border-radius: 50%;
 	border: none;
+	transform: translateY(-50%);
 	background: #ffffff;
 	background: url("../images/arrow-review.svg") center;
 	background-repeat: no-repeat;
@@ -70,5 +71,5 @@
 }
 .reviews__button-next{
 	right: -76px;
-	transform: rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
 }
