@@ -85,6 +85,15 @@
 .choose-tour-list__type--first{
 	margin-top: 29px;
 }
+.choose-tour-list__about-tour{
+	margin-top: 27px;
+	font-family: TT Norms Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
 
 
 .choose-tour-list__price-cont{
