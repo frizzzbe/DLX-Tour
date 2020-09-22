@@ -1,0 +1,145 @@
+/* choose-tour */
+.choose-tour-list__sort-container{
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	margin-top: 39px;
+}
+.choose-tour-list__sort-span{
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #000000;
+}
+.choose-tour-list__sort-container .select-container{
+	margin-left: 11px;
+}
+
+.choose-tour-list__item{
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.choose-tour-list__info-cont,
+.choose-tour-list__price-cont{
+	border: 1px solid #F0F0F0;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.choose-tour-list__info-cont{
+	display: flex;
+	flex-grow: 1;
+	padding: 30px;
+}
+
+.choose-tour-list__image{
+	width: 255px;
+	height: 241px;
+}
+.choose-tour-list__info{
+	margin-left: 53px;
+}
+.choose-tour-list__info .rate{
+	margin-top: 21px;
+}
+.choose-tour-list__title{
+	margin-top: 23px;
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	color: #000000;
+}
+.choose-tour-list__location{
+	position: relative;
+	margin-top: 13px;
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 20px;
+	color: #BBBBBB;
+}
+
+.choose-tour-list__location::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url("../images/1-pin.svg") center;
+}
+.choose-tour-list__type{
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.choose-tour-list__type--first{
+	margin-top: 29px;
+}
+
+
+.choose-tour-list__price-cont{
+	padding: 27px 15px 41px;
+	margin-left: 30px;
+	
+}
+
+.choose-tour-list__time{
+	font-family: TT Norms Pro;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+.choose-tour-list__room,
+.choose-tour-list__type{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 10px;
+	color: #ACACAC;
+}
+.choose-tour-list__price-from{
+	margin-top: 22px;
+	font-family: TT Norms Pro;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+
+.choose-tour-list__price-rubbles,
+.choose-tour-list__price-DLX{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #00CBDA;
+}
+
+.choose-tour-list__price-rubbles{
+	margin-top: 6px;
+}
+.choose-tour-list__btn{
+	margin-top: 19px;
+    display: block;
+    width: 224px;
+}
+
+.show-more__btn{
+	margin: 54px auto 0;
+    display: table;
+    padding: 16px 79px;
+    align-self: center;
+}
+/* choose-tour END */

@@ -41,11 +41,18 @@ body{
 	border-radius: 100px;
 	text-decoration: none;
 	padding: 10px 0;
+	transition: background-color 0.4s;
+}
+.btn:hover{
+	background-color: #00DCDE;
 }
 .btn-white{
 	box-sizing: border-box;
 	color: #000000;
 	background-color: #FFFFFF;
+}
+.btn-white:hover{
+	background-color: #EFEFEF;
 }
 
 /* rate */
@@ -62,5 +69,40 @@ body{
 }
 .rate__star--light{
 	background: url("../images/star.svg");
+}
+
+.select-container select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	font-family: TT Norms Pro;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	background-color: #FAFAFA;
+	border: none;
+	margin-top: 8px;
+	padding: 15px 0 18px 25px;
+	cursor: pointer;
+}
+.select-container{
+	position: relative;
+}
+.select-container::after{
+	content: "";
+	position: absolute;
+	display: inline-block;
+	right: 20.51px;
+	top: 50%;
+	width: 0;
+	height: 0;
+	transform: rotate(45deg);
+
+	border-right: 3px solid #C4C4C4;
+	border-bottom: 3px solid #C4C4C4;
+	border-left: 3px solid transparent;
+	border-top: 3px solid transparent;
 }
 /* rate END*/

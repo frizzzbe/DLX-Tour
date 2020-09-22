@@ -1,0 +1,31 @@
+/* about-tour */
+.about-tour{
+	margin-top: 70px;
+}
+.about-tour__title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	color: #000000;
+}
+.about-tour__content{
+	display: flex;
+	justify-content: space-between;
+}
+.about-tour__definition{
+	max-width: 730px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
+.about-tour__paragraph{
+	margin-top: 27px;
+}
+.about-tour__image{
+	margin-left: 30px;
+    object-fit: cover;
+}
+/* about-tour END*/
