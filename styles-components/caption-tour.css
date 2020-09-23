@@ -173,3 +173,17 @@
 .choose-tour__send{
 	padding: 15px 79px 17px 79px;
 }
+.caption-tour__user{
+	margin: 100px auto 67px;
+    width: fit-content;
+	display: flex;
+	align-items: center;
+}
+.caption-tour__user-name{
+	margin-left: 13px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}

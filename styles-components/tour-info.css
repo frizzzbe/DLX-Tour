@@ -1,0 +1,160 @@
+/* tour-info */
+.tour-info{
+	margin-top: 58px;
+}
+.tour-info .container{
+	display: flex;
+	justify-content: space-between;
+}
+.tour-info__props{
+	padding: 34px;
+	background-color: #F8F8F8;
+	width: 350px;
+    box-sizing: border-box;
+	max-width: 100%;
+}
+.tour-info__details{
+	padding-left: 30px;
+	flex-grow: 1;
+}
+
+.tour-info__property{
+	font-family: TT Norms Pro;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 30px;
+	color: #000000;
+}
+.tour-info__property:first-child{
+	margin-top: 0;
+}
+.tour-info__prop-value{
+	font-family: TT Norms Pro;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #979797;
+	margin-top: 7px;
+}
+.tour-info__cost-label{
+	margin-top: 29px;
+	font-family: TT Norms Pro;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.tour-info__cost{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	margin-top: 16px;
+	color: #00CBDA;
+}
+.tour-info__cost:first-child{
+	margin-top: 7px;
+}
+.tour-info__btn{
+	display: inline-block;
+	padding: 16px 61px;
+	margin-top: 43px;
+}
+
+.tour-info__user{
+	margin-top: 53px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.tour-info__user-info{
+	margin-left: 13px;
+}
+.tour-info__user-name{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+.tour-info__user-work{
+	font-family: TT Norms Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
+	color: #979797;
+}
+
+.tour-info__title{
+	margin-top: 25px;
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+}
+.tour-info__title:first-child{
+	margin-top: 0;
+}
+
+.tour-info__list{
+	list-style: none;
+	margin-top: 10px;
+}
+.tour-info__list-item{
+	position: relative;
+	padding-left: 15px;
+	margin-top: 10px;
+}
+.tour-info__list-item::before{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	left: 0;
+	top: 10px;
+	transform: translateY(-50%);
+	background: #00CBDA;
+}
+
+.tour-info__heading{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	margin-top: 51px;
+	color: #000000;
+}
+.tour-info__paragraph{
+	margin-top: 25px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.tour-info__gallery{
+	width: 100%;
+	margin-top: 37px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tour-info__gallery img{
+	margin: 0 15px;
+}
+.tour-info__gallery--day img{
+	margin: 0 13px;
+}
+.tour-info__gallery img:first-child{
+	margin-left: 0;
+}
+.tour-info__gallery img:last-child{
+	margin-right: 0;
+}
+/* tour-info END*/
