@@ -1,0 +1,46 @@
+@import '../styles-components/global-styles.css';
+@import '../styles-components/header.css';
+@import '../styles-components/caption-tour.css';
+@import '../styles-components/hotel-photos.css';
+@import '../styles-components/tour-shedule.css';
+@import '../styles-components/about-hotel.css';
+@import '../styles-components/reviews.css';
+@import '../styles-components/work-list.css';
+@import '../styles-components/tour-photos.css';
+@import '../styles-components/footer.css';
+
+.caption-tour{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, 
+				rgba(0, 0, 0, 0) 160.04%), 
+				url(../images/caption-bg-1.jpg);
+	background-size: cover;
+}
+
+.tab-container{
+	margin-top: 50px;
+}
+.recomendation .container{
+	position: relative;
+}
+.reviews__button{
+	top: 50%;
+	width: 46px;
+	height: 46px;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 50%;
+	border: none;
+	transform: translateY(-50%);
+	background: #ffffff;
+	background: url("../images/arrow-review.svg") center;
+	background-repeat: no-repeat;
+	padding: 11px;
+}
+.reviews__button-prev{
+	left: -76px;
+}
+.reviews__button-next{
+	right: -76px;
+	transform: translateY(-50%) rotate(180deg);
+}
+

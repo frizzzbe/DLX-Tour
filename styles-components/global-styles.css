@@ -106,3 +106,27 @@ body{
 	border-top: 3px solid transparent;
 }
 /* rate END*/
+.tabs{
+	display: flex;
+	justify-content: space-between;
+}
+.tab{
+	flex-grow: 1;
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	line-height: 24px;
+	padding-bottom: 22px;
+	border-bottom: 2px solid #F4F4F4;
+	cursor: pointer;
+	color: #000000;
+}
+.tab.active,
+.tab:hover{
+	color: #00CBDA;
+	border-color: #00CBDA;
+}
+.tab-current{
+	margin-top: 32px;
+}

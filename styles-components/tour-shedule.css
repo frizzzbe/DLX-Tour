@@ -1,0 +1,44 @@
+/* tour-shedule */
+.tour-shedule{
+	margin-top: 64px;
+}
+.tour-shedule__title{
+	font-family: TT Norms Pro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.tour-shedule__items{
+	margin-top: 27px;
+}
+.tour-shedule__item{
+	margin-top: -1px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 21px 0 24px;
+	border-top: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+}
+.tour-shedule__item .btn{
+	padding: 16px 62px;
+}
+
+.tour-shedule__hotel-price{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #00CBDA;
+}
+.tour-shedule__hotel-prop{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ACACAC;
+}
+/* tour-shedule END*/
