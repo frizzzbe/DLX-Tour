@@ -130,3 +130,27 @@ body{
 .tab-current{
 	margin-top: 32px;
 }
+
+input{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 14px 0 14px 23px;
+	background-color: #FAFAFA;
+	border: none;
+	border-radius: 5px;
+	color: #000000;
+}
+input:placeholder{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	color: #BBBBBB;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
