@@ -101,14 +101,16 @@
 	color: #FFFFFF;
 }
 
-.arrange-inputs__title:not(:first-child){
+.arrange-inputs__title{
 	font-family: Cera Round Pro DEMO;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 26px;
-	margin-top: 43px;
 	color: #000000;
+}
+.arrange-inputs__title--tourists{
+	margin-top: 45px;
 }
 .arrange-inputs__descript{
 	font-family: TT Norms Pro;
@@ -178,3 +180,122 @@ input[type="number"].arrange-datas__contact{
 .arrange-inputs__sub-title--second{
 	margin-top: 53px;
 }
+
+.arrange-inputs__title--buy{
+	margin-top: 83px;
+}
+
+.arrange-inputs__payment-way{
+	margin-top: 23px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.arrange-inputs__way-param{
+	font-family: Cera Round Pro DEMO;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: #DCDCDC;
+	margin-right: 27px;
+}
+.arrange-inputs__payment-way-param--active,
+.arrange-inputs__way-param:hover{
+	color: #00CBDA;
+}
+.arrange-inputs__descript-payment{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	color: #000000;
+	max-width: 550px;
+	margin-top: 37px;
+}
+
+.arrange-inputs__card-container input{
+	background: #FFFFFF;
+	border: 1px solid #E9E9E9;
+	border-radius: 5px;
+}
+.arrange-inputs__card-container{
+	position: relative;
+	z-index: 2;
+}
+.arrange-inputs__card{
+	margin-top: 41px;
+	padding: 27px 55px 60px;
+	background: #FEFEFE;
+	box-shadow: 0px 20px 40px rgba(119, 119, 119, 0.07);
+	border-radius: 30px;
+	width: 582px;
+	height: 329px;
+	z-index: 1;
+	box-sizing: border-box;
+}
+.arrange-inputs__card-back{
+	position: absolute;
+	margin-top: 0;
+	padding: 22px;
+	top: 72px;
+	left: 148px;
+	z-index: -1;
+	background-color: #FFFFFF;
+}
+.arrange-inputs__card-date-cont{
+	margin-top: 23px;
+	display: flex;
+	align-items: flex-start;
+
+}
+.arrange-inputs__card-title{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+.arrange-inputs__card-number{
+	box-sizing: border-box;
+	margin-top: 10px;
+	width: 100%;
+}
+.arrange-inputs__card-term{
+	display: inline-block;
+	line-height: 21px;
+	width: 75px;
+	margin-right: 17px;
+}
+.arrange-inputs__card-date{
+	box-sizing: border-box;
+	width: 103px;
+	margin-right: 26px;
+}
+.arrange-inputs__card-title--user{
+	margin-top: 23px;
+}
+
+.arrange-inputs__CVV-cont{
+	position: absolute;
+	top: 77px;
+	right: 22px;
+	width: 103px;
+	height: 70px;
+	box-sizing: border-box;
+}
+.arrange-inputs__CVV-cont input{
+	width: 100%;
+	box-sizing: border-box;
+}
+.arrange-inputs__btn{
+	display: table;
+	margin: 0 auto;
+	margin-top: 174px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.main-footer {
+    margin-top: 97px;
+}
+/*::-webkit-calendar-picker-indicator { display: none; }*/
