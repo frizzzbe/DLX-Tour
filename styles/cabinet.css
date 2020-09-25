@@ -197,4 +197,40 @@
 	padding-right: 38px;
 }
 
+.stocks-cont{
+	display: flex;
+	flex-wrap: wrap;
+}
+.stocks-item{
+	width: 255px;
+	margin-right: 30px;
+}
+.stocks-item:nth-child(4n){
+	margin-right: 0;
+}
+
+.stock-time{
+	margin-top: 21px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #00CBDA;
+}
+.stock-title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	margin-top: 15px;
+	color: #000000;
+}
+.stock-description{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 15px;
+	color: #000000;
+}
 /* tab 2 END*/
