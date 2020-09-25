@@ -34,11 +34,11 @@
 			<h1 class="user-activity__title">Личный кабинет</h1>
 			<article class="tab-container">
 				<div class="tabs">
-					<input class="tab-radio" type="radio" name="user-active__type" id="profile">
+					<input class="tab-radio" type="radio" name="user-active__type" id="profile" checked>
 					<label class="tab" for="profile">Мой профиль</label>
 					<input class="tab-radio" type="radio" name="user-active__type" id="order">
 					<label class="tab" for="order">Мои заказы</label>
-					<input class="tab-radio" type="radio" name="user-active__type" id="info" checked>
+					<input class="tab-radio" type="radio" name="user-active__type" id="info">
 					<label class="tab" for="info">Информация</label>
 					<input class="tab-radio" type="radio" name="user-active__type" id="bonus">
 					<label class="tab" for="bonus">Бонусы</label>
@@ -154,7 +154,7 @@
 								<td>4567897890</td>
 								<td>Испания</td>
 								<td>09 сент 2020</td>
-								<td data-status="denied">Отклонен</td>
+								<td class="table-status" data-status="denied">Отклонен</td>
 								<td>56 939 044</td>
 								<td>DLX</td>
 								<td>Diplex wallet</td>
@@ -164,7 +164,7 @@
 								<td>4567897890</td>
 								<td>Египет</td>
 								<td>09 сент 2020</td>
-								<td data-status="working">В работе</td>
+								<td class="table-status" data-status="working">В работе</td>
 								<td>56 939 044</td>
 								<td>DLX</td>
 								<td>Qiwi</td>
@@ -174,7 +174,7 @@
 								<td>4567897890</td>
 								<td>Турция</td>
 								<td>09 сент 2020</td>
-								<td data-status="confirmed">Подтвержден</td>
+								<td class="table-status" data-status="confirmed">Подтвержден</td>
 								<td>56 939 044</td>
 								<td>DLX</td>
 								<td>Yandex money</td>
@@ -184,7 +184,7 @@
 								<td>4567897890</td>
 								<td>Испания</td>
 								<td>09 сент 2020</td>
-								<td data-status="confirmed">Подтвержден</td>
+								<td class="table-status" data-status="confirmed">Подтвержден</td>
 								<td>56 939 044</td>
 								<td>DLX</td>
 								<td>Сберанк</td>
@@ -195,34 +195,81 @@
 				</div>
 				<div class="tab-content" data-content="info">
 					<div class="stocks-cont">
-						<div class="stocks-item">
+						<a href="#" class="stocks-item">
 							<img src="./images/cabinet-info-1.jpg" alt="акция">
 							<p class="stock-time">До конца акции: 18 дней 10 часов</p>
 							<h4 class="stock-title">Горные лыжи со скидкой до 30%</h4>
 							<p class="stock-description">Отмена бронирования без финансовых потерь!</p>
-						</div>
-						<div class="stocks-item">
+						</a>
+						<a href="#" class="stocks-item">
 							<img src="./images/cabinet-info-1.jpg" alt="акция">
 							<p class="stock-time">До конца акции: 18 дней 10 часов</p>
 							<h4 class="stock-title">Горные лыжи со скидкой до 30%</h4>
 							<p class="stock-description">Отмена бронирования без финансовых потерь!</p>
-						</div>
-						<div class="stocks-item">
+						</a>
+						<a href="#" class="stocks-item">
 							<img src="./images/cabinet-info-1.jpg" alt="акция">
 							<p class="stock-time">До конца акции: 18 дней 10 часов</p>
 							<h4 class="stock-title">Горные лыжи со скидкой до 30%</h4>
 							<p class="stock-description">Отмена бронирования без финансовых потерь!</p>
-						</div>
-						<div class="stocks-item">
+						</a>
+						<a href="#" class="stocks-item">
 							<img src="./images/cabinet-info-1.jpg" alt="акция">
 							<p class="stock-time">До конца акции: 18 дней 10 часов</p>
 							<h4 class="stock-title">Горные лыжи со скидкой до 30%</h4>
 							<p class="stock-description">Отмена бронирования без финансовых потерь!</p>
-						</div>
+						</a>
 					</div>
 				</div>
 				<div class="tab-content" data-content="bonus">
-					<p>какаита штука ищо</p>
+					<p class="bonuses-label">У вас бонусов</p>
+					<p class="bonuses-yours">2 749 059,00 DLX</p>
+					<table class="table-order">
+					 	<thead>
+							<tr>
+								<td>Дата заказа</td>
+								<td>Номер заказа</td>
+								<td>Страна путешествия</td>
+								<td>Сумма</td>
+								<td>Валюта</td>
+								<td>Начислено</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Испания</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td class="table-accrued">+ 364 DLX</td>
+							</tr>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Египет</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td class="table-accrued">+ 364 DLX</td>
+							</tr>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Турция</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td class="table-accrued">+ 364 DLX</td>
+							</tr>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Испания</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td class="table-accrued">+ 364 DLX</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</article>
 		</div>
