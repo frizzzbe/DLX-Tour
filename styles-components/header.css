@@ -57,3 +57,33 @@
 	margin: 0 14px;
 	flex-basis: 191px;
 }
+.main-header__user-cont{
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: 157px;
+	padding-right: 35px;
+}
+.main-header__user-cont img{
+	border-radius: 50%;
+}
+.main-header__user-name{
+	margin-left: 11px;
+	font-family: Cera Round Pro DEMO;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+}
+.main-header__user-cont::before{
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: url('../images/arrow-review.svg') center;
+	background-repeat: no-repeat;
+	right: 0;
+	transform: rotate(-90deg);
+
+}

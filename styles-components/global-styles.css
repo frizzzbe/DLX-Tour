@@ -127,10 +127,16 @@ body{
 	color: #00CBDA;
 	border-color: #00CBDA;
 }
-.tab-current{
+.tab-content{
 	margin-top: 32px;
+	display: none;
 }
-
+.tab-current{
+	display: block;
+}
+.tab-radio{
+	display: none;
+}
 input{
 	font-family: TT Norms Pro;
 	font-weight: normal;
