@@ -1,0 +1,49 @@
+@import '../styles-components/global-styles.css';
+@import '../styles-components/header.css';
+@import '../styles-components/work-list.css';
+@import '../styles-components/footer.css';
+
+
+.know-more__title{
+	margin-top: 55px;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+	color: #000000;
+}
+.know-more__how{
+	margin-top: 58px;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	color: #000000;
+}
+.instruction__title{
+	margin-top: 90px;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	color: #000000;
+}
+.instruction__step-title{
+	margin-top: 58px;
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+}
+.instruction__step-description{
+	margin-top: 23px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
