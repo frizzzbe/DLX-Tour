@@ -34,9 +34,9 @@
 			<h1 class="user-activity__title">Личный кабинет</h1>
 			<article class="tab-container">
 				<div class="tabs">
-					<input class="tab-radio" type="radio" name="user-active__type" id="profile" checked>
+					<input class="tab-radio" type="radio" name="user-active__type" id="profile">
 					<label class="tab" for="profile">Мой профиль</label>
-					<input class="tab-radio" type="radio" name="user-active__type" id="order">
+					<input class="tab-radio" type="radio" name="user-active__type" id="order" checked>
 					<label class="tab" for="order">Мои заказы</label>
 					<input class="tab-radio" type="radio" name="user-active__type" id="info">
 					<label class="tab" for="info">Информация</label>
@@ -135,9 +135,63 @@
 					<a href="#" class="btn profile__save">Сохранить изменения</a>
 				</div>
 				<div class="tab-content" data-content="order">
-					<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Harum tempore facere assumenda incidunt rerum necessitatibus, dolorum commodi officiis, voluptate, sunt, consectetur autem. Quidem aspernatur similique distinctio iste possimus inventore maxime.
-					Ducimus dolorum et reiciendis, omnis ullam soluta odit rem accusamus eius voluptatem commodi assumenda officiis consectetur, ut. Maiores vel ab ad sed. Rem rerum ullam, aperiam officiis recusandae porro, eaque.
-					Natus magni quasi, incidunt corporis alias accusamus deserunt nostrum labore facilis sit totam aperiam ab omnis quibusdam nihil. Veritatis reiciendis unde est, doloremque id earum maiores quae voluptate maxime, eveniet.</p>
+					<table class="table-order">
+					 	<thead>
+							<tr>
+								<td>Дата заказа</td>
+								<td>Номер заказа</td>
+								<td>Направление</td>
+								<td>Дата тура</td>
+								<td>Статус заказа</td>
+								<td>Сумма</td>
+								<td>Валюта</td>
+								<td>Способ оплаты</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Испания</td>
+								<td>09 сент 2020</td>
+								<td data-status="denied">Отклонен</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td>Diplex wallet</td>
+							</tr>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Египет</td>
+								<td>09 сент 2020</td>
+								<td data-status="working">В работе</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td>Qiwi</td>
+							</tr>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Турция</td>
+								<td>09 сент 2020</td>
+								<td data-status="confirmed">Подтвержден</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td>Yandex money</td>
+							</tr>
+							<tr>
+								<td>09 сент 2020</td>
+								<td>4567897890</td>
+								<td>Испания</td>
+								<td>09 сент 2020</td>
+								<td data-status="confirmed">Подтвержден</td>
+								<td>56 939 044</td>
+								<td>DLX</td>
+								<td>Сберанк</td>
+							</tr>
+						</tbody>
+					</table>
+					<a href="#" class="btn table__send">Отправиться в путешествие</a>
 				</div>
 				<div class="tab-content" data-content="info">
 					<p><button class="btn">hey bro</button></p>
@@ -172,6 +226,19 @@
 	<script>
 		const tabs = document.querySelectorAll('.tab-radio');
 		const tabsContent = document.querySelectorAll('.tab-content');
+		(function render(){
+			for(let tab of tabs){
+				if (tab.checked) {
+					tabsContent.forEach((item)=>{
+						if (item.dataset.content == tab.id) {
+							item.classList.add('tab-current');
+						}else{
+							item.classList.remove('tab-current');
+						}
+					});
+				}
+			}
+		})();
 
 		for(let tab of tabs){
 			tab.addEventListener('change', (e)=>{

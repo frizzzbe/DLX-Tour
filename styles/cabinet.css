@@ -26,6 +26,7 @@
 	border-color: #00CBDA;
 }
 
+/* tab 1 */
 .profile__title{
 	margin-top: 72px;
 	font-family: Cera Round Pro DEMO;
@@ -146,3 +147,54 @@
 	margin-top: 78px;
 	padding: 17px 38px;
 }
+/* tab 1 END */
+
+/* tab 2 */
+
+.table-order{
+	margin-top: 39px;
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-order thead td{
+	font-family: TT Norms Pro;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+}
+.table-order td{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+
+	padding-top: 18px;
+	padding-bottom: 21px;
+	border-bottom: 1px solid #EDEDED;
+}
+.table-order td:nth-child(5){
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+.table-order td[data-status="denied"]{
+	color: #F15A24;
+}
+.table-order td[data-status="working"]{
+	color: #00CBDA;
+}
+.table-order td[data-status="confirmed"]{
+	color: #00DA3D;
+}
+
+.table__send{
+	margin-top: 54px;
+	display: table;
+	padding-left: 38px;
+	padding-right: 38px;
+}
+
+/* tab 2 END*/
