@@ -1,0 +1,42 @@
+@import '../styles-components/global-styles.css';
+@import '../styles-components/header.css';
+@import '../styles-components/footer.css';
+
+.tourists-note__title{
+	margin-top: 69px;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+	color: #000000;
+}
+.tourists-note__table{
+	margin-top: 62px;
+	border-collapse: collapse;
+}
+.tourists-note__country{
+	padding: 20px;
+	padding-left: 0;
+	width: 216px;
+	box-sizing: border-box;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+}
+.tourists-note__download{
+	padding: 20px 0;
+}
+.tourists-note__download a{
+	padding: 20px 0;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: #00CBDA;
+	text-decoration: none;
+}
