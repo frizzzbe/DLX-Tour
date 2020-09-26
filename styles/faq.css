@@ -41,10 +41,10 @@
 	content: "+";
 	position: absolute;
 	right: 20px;
-	top: 1.1em;
+	top: 0.9em;
 	transform: translateY(-50%);
-	width: 26px;
-	height: 26px;
+	width: 13px;
+	height: 13px;
 
 	font-family: Cera Round Pro DEMO;
 	font-weight: bold;
@@ -69,6 +69,7 @@ input[type="radio"]:checked + .accordion-preview::before{
 }
 .accordion-content{
 	display: none;
+	margin-bottom: 23px;
 }
 input[type="radio"]:checked + .accordion-preview .accordion-content{
 	display: block;
