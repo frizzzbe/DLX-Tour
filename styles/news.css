@@ -1,0 +1,74 @@
+@import '../styles-components/global-styles.css';
+@import '../styles-components/header.css';
+@import '../styles-components/footer.css';
+
+.news__title{
+	margin-top: 69px;
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+	color: #000000;
+}
+
+.news-item{
+	width: 255px;
+}
+.news-item img{
+	width: 100%;
+}
+.news-item__time {
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+
+	display: block;
+	margin-top: 15px;
+	color: #CDCDCD;
+}
+
+.news-container{
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+	grid-gap: 50px 29px;
+}
+
+.news-item__title {
+	font-family: Cera Round Pro DEMO;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	
+	margin-top: 21px;
+	color: #000000;
+}
+
+.news-item__content {
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	
+	margin-top: 21px;
+	color: #000000;
+}
+
+.news-item__link {
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 17px;
+	color: #00CBDA;
+}
+
+.news-item__link:hover {
+	text-decoration: underline;
+}
