@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DLX Tour</title>
+	<link rel="stylesheet" href="./fonts/font-cera.css">
+	<link rel="stylesheet" href="./fonts/font-TT-Norms-Pro.css">
+	<link rel="stylesheet" href="./styles/add-tour.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<nav class="main-nav">
+				<a href="#"><img src="./images/logo.svg" alt="Логотип компании Скоко"></a>
+				<div class="main-header__properties">
+					<div class="main-header__city">
+						<span class="main-header__prefix">Я проживаю в городе</span><span class="main-header__current-city">Москва</span>
+					</div>
+					<div class="main-header__language">
+						<img src="./images/ru-lang.png" alt="Язык">
+						<span class="main-header__current-language">Русский</span><span class="main-header__change-language">Изменить</span>
+					</div>
+				</div>
+				<a href="#" class="btn">Зарегистрироваться</a>
+				<a href="#" class="btn btn-white">Войти</a>
+			</nav>
+		</div>
+	</header>
+	<section class="add-tour">
+		<div class="container">
+			<h1 class="add-tour__title">Добавить тур</h1>
+			<h4 class="profile__title">Основная информация</h4>
+			<div class="profile-input-container profile-input-container--first">
+				<div class="profile-input">
+					<label class="profile-input__label" for="name-tour">Название тура</label>
+					<input class="profile-input__input" type="text" id="name-tour" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label" for="tour-category">Категория тура</label>
+					<input class="profile-input__input" type="text" id="tour-category" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label" for="cost-tour">Стоимость тура, руб.</label>
+					<input class="profile-input__input" type="text" id="cost-tour" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label">Обложка тура</label>
+					<label class="profile-input__file-image profile-input__image--cover" for="photo-1"></label>
+					<input class="profile-input__file" type="file" id="photo-1">
+				</div>
+				<div class="profile-input profile-input--gallery">
+					<label class="profile-input__label">Галлерея</label>
+					<div class="profile-input__file-images">
+						<label class="profile-input__file-image" for="photo-2"></label>
+						<input class="profile-input__file" type="file" id="photo-2">
+						<label class="profile-input__file-image" for="photo-3"></label>
+						<input class="profile-input__file" type="file" id="photo-3">
+						<label class="profile-input__file-image" for="photo-4"></label>
+						<input class="profile-input__file" type="file" id="photo-4">
+						<label class="profile-input__file-image" for="photo-5"></label>
+						<input class="profile-input__file" type="file" id="photo-5">
+						<label class="profile-input__file-image" for="photo-6"></label>
+						<input class="profile-input__file" type="file" id="photo-6">
+					</div>
+				</div>
+			</div>
+			<h4 class="profile__title profile__title--cont-info">Информация о туре</h4>
+			<div class="profile-input-container">
+				<div class="profile-input">
+					<label class="profile-input__label" for="date-tour">Дата тура</label>
+					<input class="profile-input__input" type="text" id="date-tour" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label" for="minage">Минимальный возраст</label>
+					<input class="profile-input__input" type="number" id="minage" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label" for="size-group">Размер группы</label>
+					<input class="profile-input__input" type="text" id="size-group" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label" for="location">Проживание</label>
+					<input class="profile-input__input" type="text" id="location" placeholder="Введите название тура">
+				</div>
+				<div class="profile-input">
+					<label class="profile-input__label" for="difficulty">Сложность</label>
+					<input class="profile-input__input" type="text" id="difficulty" placeholder="Введите название тура">
+				</div>
+			</div>
+			<h4 class="profile__title profile__title--tour">Описание тура</h4>
+			<div class="profile-container__tour-descr">
+				<label class="profile-input__label" for="difficulty">Что входит в тур</label>
+				<textarea class="profile-input__input" id="difficulty" cols="30" rows="10" placeholder="Введите название тура"></textarea>
+				<label class="profile-input__label" for="priced">В стоимость включено:</label>
+				<textarea class="profile-input__input" id="priced" cols="30" rows="10" placeholder="Введите название тура"></textarea>
+				<label class="profile-input__label" for="not-pricing">В стоимость не входит:</label>
+				<textarea class="profile-input__input" id="not-pricing" cols="30" rows="10" placeholder="Введите название тура"></textarea>
+			</div>
+			<h4 class="profile__title profile__title--short-info">Краткая информация</h4>
+			<label class="profile-input__label profile-input__label--info" for="description-hotel">Описание</label>
+			<textarea class="profile-input__input" id="description-hotel" cols="30" rows="10" placeholder="Введите название тура"></textarea>
+			<div class="profile-input profile-input--gallery">
+				<label class="profile-input__label profile-input__label--info">Галлерея</label>
+				<div class="profile-input__file-images">
+					<label class="profile-input__file-image" for="photo-2"></label>
+					<input class="profile-input__file" type="file" id="photo-2">
+					<label class="profile-input__file-image" for="photo-3"></label>
+					<input class="profile-input__file" type="file" id="photo-3">
+					<label class="profile-input__file-image" for="photo-4"></label>
+					<input class="profile-input__file" type="file" id="photo-4">
+					<label class="profile-input__file-image" for="photo-5"></label>
+					<input class="profile-input__file" type="file" id="photo-5">
+					<label class="profile-input__file-image" for="photo-6"></label>
+					<input class="profile-input__file" type="file" id="photo-6">
+				</div>
+			</div>
+			<h4 class="profile__title profile__title--short-info">Информация по дням</h4>
+			<label class="profile-input__label profile-input__label--info" for="day-1">День 1</label>
+			<textarea class="profile-input__input" id="day-1" cols="30" rows="10" placeholder="Введите название тура"></textarea>
+			<div class="profile-input profile-input--gallery">
+				<label class="profile-input__label profile-input__label--info">День 1</label>
+				<div class="profile-input__file-images">
+					<label class="profile-input__file-image" for="photo-2"></label>
+					<input class="profile-input__file" type="file" id="photo-2">
+					<label class="profile-input__file-image" for="photo-3"></label>
+					<input class="profile-input__file" type="file" id="photo-3">
+					<label class="profile-input__file-image" for="photo-4"></label>
+					<input class="profile-input__file" type="file" id="photo-4">
+					<label class="profile-input__file-image" for="photo-5"></label>
+					<input class="profile-input__file" type="file" id="photo-5">
+					<label class="profile-input__file-image" for="photo-6"></label>
+					<input class="profile-input__file" type="file" id="photo-6">
+				</div>
+			</div>
+			<a href="#" class="add-day">+ Добавить день</a>
+			<a href="#" class="btn profile__save">Отправить тур</a>
+		</div>
+	</section>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="main-footer__info-company">
+				<img src="./images/logo-gray.svg" alt="Логотип компании" width="160px">
+				<p class="main-footer__copyright">2020, Агенство труизма “Скоко”</p>
+			</div>
+			<div class="main-footer__menu">
+				<ul class="main-footer__list">
+					<li class="main-footer__link"><a href="#">Узнать большое о...</a></li>
+					<li class="main-footer__link"><a href="#">Туристу на заметку</a></li>
+					<li class="main-footer__link"><a href="#">Новости</a></li>
+				</ul>
+				<ul class="main-footer__list">
+					<li class="main-footer__link"><a href="#">FAQ</a></li>
+					<li class="main-footer__link"><a href="#">Добавить тур</a></li>
+					<li class="main-footer__link"><a href="#">Стать партнером</a></li>
+					<li class="main-footer__link"><a href="#">О нас</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
