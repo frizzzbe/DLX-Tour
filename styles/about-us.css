@@ -1,0 +1,186 @@
+@import '../styles-components/global-styles.css';
+@import '../styles-components/header.css';
+@import '../styles-components/work-list.css';
+@import '../styles-components/footer.css';
+
+
+.tab-container{
+	margin-top: 50px;
+}
+h1.about-us__title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 64px;
+	color: #000000;
+}
+.user-activity .tab{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.tabs{
+	justify-content: flex-start;
+}
+
+.tab{
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+
+	flex-grow: 0;
+	padding: 10px 0;
+	width: 212px;
+	height: 43px;
+	border: 2px solid #00CBDA;
+	box-sizing: border-box;
+	border-radius: 100px;
+	margin-right: 35px;
+	background-color: #ffffff;
+	color: #00CBDA;
+}
+
+.tab-radio:checked + .tab,
+.tab:hover{
+	background-color: #00CBDA;
+	color: #FFFFFF;
+}
+
+.about-us__title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	color: #000000;
+	margin-top: 30px;
+}
+.about-us__title--adv{
+	margin-top: 60px;
+}
+.about-us__description{
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+
+	color: #000000;
+	margin-top: 35px;
+}
+.work__title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #00CBDA;
+}
+.work__itm {
+    min-height: auto;
+}
+.about-us__title--development{
+	margin-top: 76px;
+}
+
+.contacts-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__title{
+	margin-top: 48px;
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+	color: #00CBDA;
+}
+.contacts__data{
+	margin-top: 35px;
+
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.contact-call{
+	padding: 58px 29px 45px 38px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(119, 119, 119, 0.07);
+	border-radius: 20px;
+}
+.contact-call__title{
+	font-family: Cera Round Pro DEMO;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+
+	text-align: center;
+	color: #000000;
+}
+.contact-call__descr{
+	margin-top: 25px;
+	margin-bottom: 7px;
+	width: 217px;
+
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	
+	text-align: center;
+	color: #A0A0A0;
+}
+
+
+.arrange-datas__contact-wrap{
+	display: block;
+	width: 100%;
+	margin-top: 27px;
+	position: relative;
+}
+
+input[type="text"].arrange-datas__contact,
+input[type="number"].arrange-datas__contact{
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 46px;
+}
+.arrange-datas__contact-wrap::before{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 15px;
+	left: 14px;
+	background: url('../images/5-email.svg') center;
+	background-size: cover;
+	display: block;
+}
+.arrange-datas__contact-wrap--mail::before{
+	background: url('../images/5-email.svg') center;
+	background-size: cover;
+}
+.arrange-datas__contact--lock::before{
+	background: url('../images/6-lock.svg') center;
+	background-size: cover;
+}
+
+.contact-btn{
+	display: block;
+    width: 100%;
+	margin-top: 37px;
+}
+.requisites{
+	margin-top: 61px;
+	font-family: TT Norms Pro;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+}
