@@ -138,6 +138,9 @@ h1.about-us__title{
 }
 
 
+.work__title{
+    width: 190px;
+}
 .arrange-datas__contact-wrap{
 	display: block;
 	width: 100%;
