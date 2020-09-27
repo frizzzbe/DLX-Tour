@@ -13,12 +13,12 @@ index - добавочная страница
 Оформление заказа - [arrange-tour]  
 Личный кабинет * 4 - [cabinet]  
 
-**footer**
+**footer**  
 Узнать больше о... - [know-more]  
 Туристу на заметку - [tourists-note]  
 Новости - [news]  
 
 FAQ - [FAQ]  
-Добавить тур  - [add-tour]  
+Добавить тур - [add-tour]  
 О нас * 3 - [about-us]  
 Стать партнером - (link)  
