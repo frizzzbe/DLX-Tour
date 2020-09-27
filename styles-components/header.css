@@ -4,6 +4,7 @@
 .main-nav{
 	padding: 14px 0;
 	max-height: 71px;
+    box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 }
