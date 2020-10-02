@@ -147,7 +147,10 @@
 
 .show-more__btn{
 	margin: 54px auto 0;
-    display: table;
+	display: block;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
     padding: 16px 79px;
     align-self: center;
 }
