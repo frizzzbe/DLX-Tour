@@ -9,7 +9,7 @@ index - добавочная страница
 		authors-tour - Frame 7  
 			choosen-hotel-tour - Frame 3  
 			choosen-authors-tour - Frame 6  
-
+*****
 Оформление заказа - [arrange-tour]  
 Личный кабинет * 4 - [cabinet]  
 
